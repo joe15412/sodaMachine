@@ -8,5 +8,7 @@ namespace sodaMachine
 {
     class Quarters
     {
+        //set amount to add or subtract coins
+        double quarters = .25;
     }
 }

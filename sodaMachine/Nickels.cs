@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace sodaMachine
 {
-    class nickels
+    class Nickels
     {
+        double nickelCost = .05;
+
     }
 }

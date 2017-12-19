@@ -8,5 +8,8 @@ namespace sodaMachine
 {
     class Penny
     {
+        double pennyCost = .01;
+        
+
     }
 }

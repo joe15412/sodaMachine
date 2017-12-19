@@ -8,5 +8,7 @@ namespace sodaMachine
 {
     class Dimes
     {
+        double dimesCost = .10;
+    
     }
 }

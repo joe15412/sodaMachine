@@ -4,13 +4,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-public namespace sodaMachine
+namespace sodaMachine
 {
     public class Inventory
     {
-        int grapeSoda = 5;
-        int lemonSoda = 5;
-        int orangeSoda = 5;
-        //show soda inventory
+
+        int grapeSodaQty = 5;
+        int lemonSodaQty = 5;
+        int orangeSodaQty = 5;
+        private string sodaQty;
+
+        public string getSoda()
+        {
+            return sodaQty;
+        }
+        //set initial inventory
     }
 }
